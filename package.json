@@ -1,0 +1,29 @@
+{
+  "name": "zhihu2pdf",
+  "version": "1.0.0",
+  "description": "Download zhihu answers or zhuanlans as PDF files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkuphenix/zhihu2pdf.git"
+  },
+  "keywords": [
+    "zhihu",
+    "pdf",
+    "download"
+  ],
+  "author": "pkuphenix",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pkuphenix/zhihu2pdf/issues"
+  },
+  "homepage": "https://github.com/pkuphenix/zhihu2pdf#readme",
+  "dependencies": {
+    "puppeteer": "^20.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
